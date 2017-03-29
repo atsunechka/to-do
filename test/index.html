@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Тестовое задание №1</title>
+</head>
+<body>
+		<header>
+
+			<section class="header-content">	<!-- Шапка сайта -->
+				<div class="start-info">
+					<a class="logo" href="#">
+						logo
+					</a>
+					<div class="header-info">
+						<p class="header-info__tel"> 8 (800) 654 33 33</p>
+						<p class="header-info__delivery">Бесплатно по России</p>
+					</div>
+				</div>
+				<div class="header-buttons">		<!-- Кнопки в шапке -->
+					<a class="button-like">
+						<p class="button-like__count">0
+						</p>
+					</a>
+					<a class="button-cart">
+						<p class="button-cart__count">0
+						</p>
+					</a>
+						
+					<p class="header-price">
+						<span class="header-price__sum">0</span> P
+					</p>
+					<a class="header-siteuser">
+						<div class="header-siteuser__button">
+						</div>
+						<p class="header-siteuser__caption">Войти</p>
+					</a>	
+				</div>
+			</section>
+			<nav class="nav">    <!-- Навигация -->
+				<a class="nav__button">Бренды</a>
+				<a class="nav__button">Женское</a>
+				<a class="nav__button">Мужское</a>
+				<a class="nav__button">Детское</a>
+				<a class="nav__button">Дом</a>
+				<a class="nav__button">Sale</a>
+			</nav>	
+		</header>
+		<main>				<!-- Основной блок -->
+			<div class="bread-crubs">		<!-- Хлебные крошки -->
+				<a class="bread-crubs__link">Главная</a>
+				<p class="bread-crubs__arrow"> > </p>
+				<a class="bread-crubs__link">Женское</a>
+				<p class="bread-crubs__arrow"> > </p>
+				<a class="bread-crubs__link">Обувь</a>
+				<p class="bread-crubs__arrow"> > </p>
+				<a class="bread-crubs__link">Босоножки</a>
+			</div>
+			<section class="tovar-block">	<!-- Блок с товаром -->
+				<div class="image-gallery">		<!-- Галерея медиа -->
+					<div class="image-gallery__box">
+					</div>
+					<div class="image-gallery__box">
+					</div>
+					<div class="image-gallery__box">
+					</div>
+					<div class="image-gallery__box">
+					<video controls="controls" class="image-gallery__video" poster="image/cats.png">
+						 <source src="image/cats.ogv" type='video/ogg; codecs="theora, vorbis"'>
+   <source src="image/cats.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+   <source src="image/cats.webm" type='video/webm; codecs="vp8, vorbis"'>
+					</video>
+					</div>
+				</div>
+				<div class="main-image">		<!-- Главное изображение -->
+				</div>
+				<div class="info-tovar">	<!-- Описание товара -->
+					<p class="info-tovar__name">Saint Lant</p>
+					<p class="info-tovar__group">Босоножки</p>
+					<a class="info-tovar__size" href="#openModal">Таблица размеров</a>	<!-- Кнопка с модальным окном -->
+					<select class="info-tovar__count">	<!-- Количество товара -->
+						<option value="0" selected>Количество</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+					<p class="info-tovar__price">
+						<span class="info-tovar__price-count">35 250</span>
+						₽
+					</p>
+					<a class="info-tovar__buy">Купить</a>	<!-- Покупка -->
+					<p class="info-tovar__description-zag">Описание</p>
+					<p class="info-tovar__description-text">Ярко-розовая модель с ремешком на щиколотке</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			
+		</footer>
+		<div id="openModal" class="modalDialog">	<!-- Модальное окно -->
+			<div>
+				<a href="#close" title="Закрыть" class="close">X</a>
+				<table class="table table-striped"><thead><tr><th>Российский<br>размер</th><th>Международный<br>размер</th><th>Обхват<br>груди (см)</th><th>Обхват<br>талии (см)</th><th>Обхват<br>бедер (см)</th><th>Длина<br>рукава (см)</th><th colspan="2">Англия<br>(UK)</th><th>США<br>(US)</th><th>Европа<br>(EU)</th><th colspan="2">Италия<br>(IT)</th><th>Япония<br>(JP)</th></tr></thead><tbody><tr><td>38</td><td>XXS</td><td>76</td><td>58</td><td>82</td><td>58/60</td><td>4</td><td>30</td><td>0</td><td>32</td><td>36</td><td>0</td><td>3</td></tr><tr><td>40</td><td>XS</td><td>80</td><td>62</td><td>86</td><td>59/61</td><td>6</td><td>32</td><td>2</td><td>34</td><td>38</td><td>I</td><td>5</td></tr><tr><td>42</td><td>S</td><td>84</td><td>66</td><td>92</td><td>59/61</td><td>8</td><td>34</td><td>4</td><td>36</td><td>40</td><td>II</td><td>7</td></tr><tr><td>44</td><td>M</td><td>88</td><td>70</td><td>96</td><td>60/62</td><td>10</td><td>36</td><td>6</td><td>38</td><td>42</td><td>III</td><td>9</td></tr><tr><td>46</td><td>M</td><td>92</td><td>74</td><td>100</td><td>60/62</td><td>12</td><td>38</td><td>8</td><td>40</td><td>44</td><td>IV</td><td>11</td></tr><tr><td>48</td><td>L</td><td>96</td><td>78</td><td>104</td><td>60/62</td><td>14</td><td>40</td><td>10</td><td>42</td><td>46</td><td>V</td><td>13</td></tr><tr><td>50</td><td>L</td><td>100</td><td>82</td><td>108</td><td>61/63</td><td>16</td><td>42</td><td>12</td><td>44</td><td>48</td><td>VI</td><td>15</td></tr><tr><td>52</td><td>XL</td><td>104</td><td>86</td><td>112</td><td>61/63</td><td>18</td><td>44</td><td>14</td><td>46</td><td>50</td><td>VII</td><td>17</td></tr><tr><td>54</td><td>XXL</td><td>108</td><td>90</td><td>116</td><td>61/63</td><td>20</td><td>46</td><td>16</td><td>48</td><td>52</td><td>VIII</td><td>19</td></tr><tr><td>56</td><td>XXL</td><td>112</td><td>94</td><td>120</td><td>61/63</td><td>22</td><td>48</td><td>18</td><td>50</td><td>54</td><td>IX</td><td>21</td></tr><tr><td>58</td><td>XXXL</td><td>116</td><td>98</td><td>124</td><td>62/64</td><td>24</td><td>50</td><td>20</td><td>52</td><td>56</td><td>X</td><td>23</td></tr><tr><td>60</td><td>4XL</td><td>120</td><td>100</td><td>128</td><td>62/64</td><td>26</td><td>52</td><td>22</td><td>54</td><td>58</td><td>XI</td><td>25</td></tr><tr><td>62</td><td>4XL</td><td>124</td><td>104</td><td>132</td><td>62,5/65</td><td>28</td><td>54</td><td>24</td><td>56</td><td>60</td><td>XII</td><td>27</td></tr><tr><td>64</td><td>4XL</td><td>128</td><td>108</td><td>136</td><td>62,5/65</td><td>30</td><td>56</td><td>26</td><td>58</td><td>62</td><td>XIII</td><td>29</td></tr><tr><td>66</td><td>5XL</td><td>132</td><td>112</td><td>140</td><td>62,5/65</td><td>32</td><td>58</td><td>28</td><td>60</td><td>64</td><td>XIV</td><td>31</td></tr><tr><td>68</td><td>5XL</td><td>136</td><td>116</td><td>144</td><td>62,5/65</td><td>34</td><td>60</td><td>30</td><td>62</td><td>66</td><td>XV</td><td>33</td></tr><tr><td>70</td><td>5XL</td><td>140</td><td>120</td><td>148</td><td>62,5/65</td><td>36</td><td>62</td><td>32</td><td>64</td><td>68</td><td>XVI</td><td>35</td></tr></tbody></table>
+			</div>
+		</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/main-script.js"></script>
+</html>
